@@ -1,5 +1,5 @@
 function loadHome(){
-	$("#main").load("../home.html");
+	$("#main").load("./home.html");
 };
 
 function license(){
@@ -10,40 +10,40 @@ function license(){
 
 $(document).ready(function(){	
 	$("#home").click(function(){
-		$("#main").load("../home.html");
+		$("#main").load("./home.html");
 	});
 
 	$("#login").click(function(){
-		$("#main").load("../login.html");
+		$("#main").load("./login.html");
 	});
 
 	$("#t-simulators").click(function(){
-		$("#main").load("../t-simulators.html");
+		$("#main").load("./t-simulators.html");
 	});
 
 	$("#t-scripts").click(function(){
-		$("#main").load("../t-scripts.html");
+		$("#main").load("./t-scripts.html");
 	});
 
 	$("#t-plugins").click(function(){
-		$("#main").load("t-plugins.html");
+		$("#main").load("./t-plugins.html");
 	});
 
 	$("#ralgos").click(function(){
-		$("#main").load("ralgorithms.html");
+		$("#main").load("./ralgorithms.html");
 	});
 
 	$("#handson").click(function(){
-		$("#main").load("handson.html");
+		$("#main").load("./handson.html");
 	});
 
 	$("#biblio").click(function(){
-		$("#main").load("biblio.html");
+		$("#main").load("./biblio.html");
 	});
 
 	$("#license").text(license());
 
 	$("#fContact").click(function(){
-		$("#main").load("contact.html");
+		$("#main").load("./contact.html");
 	});
 })
