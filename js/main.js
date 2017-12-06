@@ -1,5 +1,5 @@
 function loadHome(){
-	$("#main").load("home.html");
+	$("#main").load("https://achemete.github.io/Manet/home.html");
 };
 
 function license(){
