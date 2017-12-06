@@ -1,5 +1,5 @@
 function loadHome(){
-	$("#main").load("./home.html");
+	$("#main").load("/home.html");
 };
 
 function license(){
