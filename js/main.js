@@ -8,7 +8,8 @@ function license(){
 	return currentY + ' - All Rights with Manet Reference';
 }
 
-$("#home").click(function(){
+$(document).ready(function(){	
+	$("#home").click(function(){
 		$("#main").load("https://achemete.github.io/Manet/home.html");
 	});
 
@@ -45,9 +46,4 @@ $("#home").click(function(){
 	$("#fContact").click(function(){
 		$("#main").load("contact.html");
 	});
-
-/*
-$(document).ready(function(){	
-	
 })
-*/
