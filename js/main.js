@@ -1,5 +1,5 @@
 function loadHome(){
-	$("#main").load("https://achemete.github.io/Manet/home.html");
+	$("#main").load("../home.html");
 };
 
 function license(){
@@ -10,19 +10,19 @@ function license(){
 
 $(document).ready(function(){	
 	$("#home").click(function(){
-		$("#main").load("https://achemete.github.io/Manet/home.html");
+		$("#main").load("../home.html");
 	});
 
 	$("#login").click(function(){
-		$("#main").load("https://achemete.github.io/Manet/login.html");
+		$("#main").load("../login.html");
 	});
 
 	$("#t-simulators").click(function(){
-		$("#main").load("https://achemete.github.io/Manet/t-simulators.html");
+		$("#main").load("../t-simulators.html");
 	});
 
 	$("#t-scripts").click(function(){
-		$("#main").load("https://achemete.github.io/Manet/t-scripts.html");
+		$("#main").load("../t-scripts.html");
 	});
 
 	$("#t-plugins").click(function(){
