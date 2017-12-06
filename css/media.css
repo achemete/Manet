@@ -1,0 +1,33 @@
+/*@media screen and (max-width: 960px) {
+
+}
+*/
+
+
+@media (max-width:800px) {
+	.col-left, .col-right{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.counterInner{
+		width: 60%;
+	} 
+	.content-wrapper{
+		display: inline;
+		padding: 1px;
+	/*  padding: 1px;
+	*/  /*padding: 10px;*/
+	}
+	nav{
+		background-color: #EDFFDC
+	}
+	.login-box{
+	  width: 80%;
+	  margin: 0 auto;
+	}
+	/*#menuTitle{
+		visibility: visible;
+		color: black;
+	}*/
+
+}
