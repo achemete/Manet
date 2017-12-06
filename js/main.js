@@ -10,19 +10,19 @@ function license(){
 
 $(document).ready(function(){	
 	$("#home").click(function(){
-		$("#main").load("home.html");
+		$("#main").load("https://achemete.github.io/Manet/home.html");
 	});
 
 	$("#login").click(function(){
-		$("#main").load("login.html");
+		$("#main").load("https://achemete.github.io/Manet/login.html");
 	});
 
 	$("#t-simulators").click(function(){
-		$("#main").load("t-simulators.html");
+		$("#main").load("https://achemete.github.io/Manet/t-simulators.html");
 	});
 
 	$("#t-scripts").click(function(){
-		$("#main").load("t-scripts.html");
+		$("#main").load("https://achemete.github.io/Manet/t-scripts.html");
 	});
 
 	$("#t-plugins").click(function(){
