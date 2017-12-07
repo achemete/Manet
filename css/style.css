@@ -48,7 +48,13 @@ hr{
   /*height: 100px;*/
   vertical-align: middle;
   text-align: center;
-
+}
+.counterStatsBar{
+  width: 85%;
+  /*height: 100px;*/
+  vertical-align: middle;
+  text-align: left;
+  margin: 0 auto;
 }
 .counterInner{
   width: 24%;
@@ -56,7 +62,7 @@ hr{
   margin: 0 auto;
   display: inline-block;
   padding-bottom: 6px;
-  border-style: dotted solid;
+/*  border-style: dotted solid;*/
 
 }
 
