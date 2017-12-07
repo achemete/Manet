@@ -21,6 +21,7 @@
 	}
 	nav{
 		background-color: #FAFAFA;
+		text-align: center;
 	}
 	.navbar-toggle{
 		background: url("../img/home.png");
