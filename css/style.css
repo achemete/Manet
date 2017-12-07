@@ -111,6 +111,7 @@ main{
 .featured-content{
   width: 100%;
   display: inline-block;
+  padding: 10px;
 }
 
 .login-box{

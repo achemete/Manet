@@ -15,15 +15,26 @@
 	.content-wrapper{
 		display: inline;
 		padding: 1px;
+		margin: 0 auto;
 	/*  padding: 1px;
 	*/  /*padding: 10px;*/
 	}
 	nav{
-		background-color: #EDFFDC
+		background-color: #FAFAFA;
+	}
+	.navbar-toggle{
+		background: url("../img/home.png");
+		background-repeat:no-repeat;
 	}
 	.login-box{
 	  width: 80%;
 	  margin: 0 auto;
+	}
+	.col-t34-right{
+		margin: 0 auto;
+		display: inline;
+		width: 50%;
+		padding: 5px;
 	}
 	/*#menuTitle{
 		visibility: visible;
