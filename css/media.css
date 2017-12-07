@@ -5,6 +5,10 @@
 
 
 @media (max-width:800px) {
+
+	#main{
+		padding: 5px;
+	}
 	.col-left, .col-right{
 		width: 100%;
 		margin: 0 auto;
